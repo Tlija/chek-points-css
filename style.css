@@ -1,0 +1,295 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --primarycolor: #ff274b ;
+    --secondarcolor: #f7bcf7 ;
+    --lightcolor: #ffffff ;
+    --bgcolor-1: #171a1c;
+    --bgcolor-2:#22282a;
+    --padding:8% ;
+}
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: 'josefin Sans',sans-serif;
+    font-size: 16px ;
+    color: var(--lightcolor);
+
+    
+}
+.home{
+    width: 100;
+    height: 100vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+
+}
+span{
+    color: var(--primarycolor);
+}
+
+h2{
+font-size: 2.2rem;
+letter-spacing: 0.12rem;
+cursor: pointer;
+
+}
+nav{
+
+    padding-top: 2.8rem;
+    padding-left: var(--padding);
+    padding-right:var(--padding) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+    transition: 4s;
+}
+nav ul li a{
+    color: var(--lightcolor);
+text-decoration: none;
+text-transform:capitalize ;
+
+}
+nav ul li a:hover{
+    color: var(--primarycolor);
+}
+.bnt{
+    background-color: var(--primarycolor);
+    text-decoration: none;
+    color:var(--lightcolor);
+    font-weight: bold;
+    border: 2px solid var(--primarycolor);
+    padding: 0.81rem 1.87rem;
+    border-radius:20px ;
+}
+.bnt:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+    transition: 0.4s;
+
+}
+.content{
+     
+    padding-top: 60px;
+    padding-left: 50px;
+    
+    
+     
+}
+h1{
+    font-size: 4.65rem;
+    margin: 1.7rem 0;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.25rem;
+    letter-spacing:0.12rem;
+    color: var(--secondarcolor);
+}
+
+.but{
+    background-color: var(--primarycolor);
+    text-decoration: none;
+    color:var(--lightcolor);
+    font-weight: bold;
+    border: 2px solid var(--primarycolor);
+    padding: 0.81rem 1.87rem;
+    border-radius:20px ;
+    position: absolute;
+    margin: 20px;
+}
+.but:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+    transition: 0.4s;
+}
+.social{
+    margin-top: 7rem;
+    margin-left:25PX;
+
+}
+.home.social img{
+    margin-right: 1.5rem;
+    width: 2.5em;
+    transition: 0.4s;
+    
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+.hach{
+width: 30%;
+position: absolute;
+margin:6em;
+margin-left: 800px;
+bottom: 0;
+}
+
+
+}
+.container-image:hover.shape{
+    bottom: 80px;
+}
+.about{
+    background-color: var(--bgcolor-2);
+
+}
+.tof {
+width:60%;
+padding:80px 20px ;
+margin-top: 10px;
+margin-left: 40px;
+    
+
+}
+.about{
+    display: flex;
+    
+    
+
+}
+.container-texts{
+    width: 80%;
+    margin-right: 130px;
+    margin-top: 100px;
+}
+.container-texts h5{
+    font-size: 1.37rem;
+    margin-bottom:1.3rem ;
+    letter-spacing: 2px;
+    width: 150px;
+    height: 50px;
+    background:var(--primarycolor);
+    transition: width 3s;
+    transition-delay: 1s;
+
+
+
+}
+.container-texts h5:hover{
+    width: 350px;
+    transition: 1s;
+}
+
+.container-texts p{
+    color: var(--secondarcolor);
+}
+.service{
+    background-color: var(--bgcolor-1);
+    padding: 2rem var(--padding);
+}
+.service h1{
+    text-align: center;
+}
+.box{
+    display: flex;
+}
+.cart{
+    width:300px ;
+    background-color: var(--bgcolor-2);
+    margin: 25px;
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 1.3rem 2rem;
+    border-radius: 20px;
+}
+.cart p{
+    color: var(--secondarcolor);
+    padding: auto;
+}
+
+
+.cart h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+.card i{
+    color: var(--primarycolor);
+}
+#tlija{
+    color: var(--primarycolor);
+    font-size: 2rem;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.mobil{
+    width:50%;
+padding:80px 7px ;
+margin-top: 10px;
+margin-left: 20rem;
+
+
+}
+.content-imags h1{
+    padding: 40% ;
+}
+.skil{
+position: relative;
+left: 40%;
+transition: 0.4s;
+
+}
+.skil a{
+    transition: 0.4s;
+}
+footer{
+    padding: 2rem var(--padding);
+    background-color: var(--bgcolor-1);
+
+}
+.conten-footer{
+    display: flex;
+     flex-direction:column;
+    align-items: center;
+    justify-content:center ;
+     
+}
+footer .conten-footer p {
+    color: var(--lightcolor);
+    text-align: center;
+    width: 500px;
+
+}
+footer .conten-footer .end{
+    color: var(--primarycolor);
+    margin-top: 1rem;
+
+}
+footer h6{
+    color: var(--primarycolor);
+    font-size: 50px;
+    padding:40px ;
+
+}
+
+    
+
+
+     
+    
+
+
+    
